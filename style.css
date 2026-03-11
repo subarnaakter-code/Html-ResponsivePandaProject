@@ -1,15 +1,15 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin:0px;
+  padding:0px;
   box-sizing: border-box;
  
 }
 .container{
   background-color: white;
-  height: 100%;
-  width: 100%;
-  padding: 20px 20px;
-  margin: 0 auto ;
+  height:100%;
+  width:100%;
+  padding:20px 20px;
+  margin:0 auto ;
 }
 .header{
  background-color: white;
@@ -17,7 +17,7 @@
  width:100%;
  display:flex;
  vertical-align:bottom;
- padding-bottom: 5px;
+ padding-bottom:5px;
  
  
   
@@ -26,9 +26,9 @@
 }
 .menu{
   background-color: pink;
-  padding: 10px;
-  height: 300px;
-  width: 100%;
+  padding:10px;
+  height:300px;
+  width:100%;
   display: flex;
   align-items: center;
 }
@@ -39,26 +39,26 @@
   background-color: deeppink;
   color:white;
   border: none ;
-  width: 90px;
-  height: 25px;
+  width:60px;
+  height:20px;
 }
 .hits{
-  height: 160px;
-  width: 200px;
+  height:160px;
+  width:200px;
   display: flex;
   justify-content: center;
 }
 .aside{
-  height: 100%;
-  width: 100%;
+  height:100%;
+  width:100%;
   
  
   
   
 }
 .image-box{
-  height: 30px;
-  width: 50px;
+  height:30px;
+  width:50px;
   
   display: flex;
   justify-content: center;
@@ -71,16 +71,16 @@
   width:100%;
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  gap:10px;
   
   
 }
 .watch{
-  height: 40px;
-  padding: 10px;
+  height:40px;
+  padding:10px;
   background-color: orange;
-  width: 100%;
-  display: flex;
+  width:100%;
+  display:flex;
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -88,8 +88,8 @@
 }
 .bag{
   height:40px;
-  padding: 10px;
-  width: 100%;
+  padding:10px;
+  width:100%;
   background-color: deeppink;
   display: flex;
   justify-content: space-between;
@@ -97,8 +97,8 @@
   color: white;
 }
 .shoes{
-  height: 40px;
-  padding: 10px;
+  height:40px;
+  padding:10px;
   width:100%;
   background-color: blue;
   display: flex;
@@ -108,76 +108,81 @@
   
 }
 .a{
-  height: 30px;
-  width: 50px;
+  height:245px;
+  width:100%;
   background-color: deeppink;
-  display: flex;
-  justify-content: flex-end;
+  display:flex;
+  justify-content:flex-end;
+  gap:10px;
 }
+
 .b{
   
   height:245px;
   width:100%;
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: space-between;
+  gap:10px;
+  border: none;
+  
 }
 .c{
- 
-  height:245px;
-  width:100%;
-border: solid;
-}
-.d{
   
   height:245px;
   width:100%;
   border: solid;
 }
+.d{
+  
+height:245px;
+width:100%;
+border: solid;
+}
 .e{
+ 
   height:245px;
   width:100%;
   border: solid;
 }
 .image{
-  padding: 5px;
+  padding:5px;
   height:60px;
   width:100%;
   text-align: center;
   justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom:5px;
 }
 .shoe-btn{
  
   background-color:black;
   color:white;
-  padding: 5px 10px;
+  padding:5px 5px;
   border: none;
   text-align: center;
-  margin-bottom:10px;
-  width: 70px;
-  height: 40px;
+  margin-bottom:5px;
+  width:75px;
+  height:25px;
 }
 .f{
   
-  height: 245px;
-  width: 100%;
+  height:245px;
+  width:100%;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap:10px;
   border: none;
   
 }
 .g{
   
-  height: 245px;
-  width: 100%;
+  height:245px;
+  width:100%;
   border: solid;
 }
 .h{
   
 height:245px;
-width: 100%;
+width:100%;
 border: solid;
 }
 .i{
@@ -189,40 +194,40 @@ border: solid;
 .bag-btn{
   background-color: black;
   color: white;
-  padding: 5px 10px;
-  margin-bottom: 10px;
+  padding:5px 5px;
+  margin-bottom:5px;
   border:none;
-  width:70px ;
-  height:40px ;
+  width:75px ;
+  height:25px ;
 }
 .santo{
   background-color: pink;
-  height: 300px;
+  height:300px;
   display: flex;
   flex-direction: column;
   gap:10px;
  justify-content: center;
   align-items: center;
-  padding: 25px 50px;
+  padding:25px 50px;
   margin:20px 0;
 }
 .santo h3{
   text-transform:uppercase;
 }
 .santo p{
-  margin: 5px 0;
+  margin:5px 0;
   color: gray;
 }
 .santo form{
   display: flex;
 }
 #email{
-  padding: 10px;
+  padding:10px;
   border:none;
-  border-radius: 5px 0 0 5px;
+  border-radius:5px 0 0 5px;
 }
 .btn-send{
-  width: 70px;
+  width:70px;
   border: none;
   color: white;
   background-color: deeppink;
