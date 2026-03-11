@@ -8,23 +8,26 @@
   background-color: white;
   height: 100%;
   width: 100%;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin: 0 auto ;
 }
 .header{
-  background-color:white;
-  height: 30px;
-  width: 948px;
-  display: flex;
-  justify-content: space-between;
-  padding:20px 0;
+ background-color: white;
+ justify-content: space-between;
+ width:100%;
+ display:flex;
+ vertical-align:bottom;
+ padding-bottom: 5px;
+ 
+ 
+  
   
   
 }
 .menu{
   background-color: pink;
-  padding: 20px;
-  height: 250px;
+  padding: 10px;
+  height: 300px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -40,8 +43,8 @@
   height: 25px;
 }
 .hits{
-  height: 180px;
-  width: 220px;
+  height: 160px;
+  width: 200px;
   display: flex;
   justify-content: center;
 }
@@ -64,17 +67,19 @@
 }
 .common{
   
-  height: 100px;
-  width: 100%;
+  height:50px;
+  width:100%;
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
+  
+  
 }
 .watch{
-  height: 100%;
-  padding: 20px;
+  height: 40px;
+  padding: 10px;
   background-color: orange;
-  width: 300px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,9 +87,9 @@
   
 }
 .bag{
-  height: 100%;
-  padding: 20px;
-  width: 300px;
+  height:40px;
+  padding: 10px;
+  width: 100%;
   background-color: deeppink;
   display: flex;
   justify-content: space-between;
@@ -92,9 +97,9 @@
   color: white;
 }
 .shoes{
-  height: 100%;
-  padding: 20px;
-  width: 300px;
+  height: 40px;
+  padding: 10px;
+  width:100%;
   background-color: blue;
   display: flex;
   justify-content: space-between;
@@ -111,94 +116,101 @@
 }
 .b{
   
-  height: 500px;
-  width: 300px;
+  height:245px;
+  width:100%;
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
 }
 .c{
  
-  height: 90%;
-  width: 300px;
+  height:245px;
+  width:100%;
 border: solid;
 }
 .d{
   
-  height: 90%;
-  width: 300px;
+  height:245px;
+  width:100%;
   border: solid;
 }
 .e{
-  height:90%;
-  width: 300px;
+  height:245px;
+  width:100%;
   border: solid;
 }
 .image{
-  padding: 10px;
-  height: 90%;
-  width: 300px;
+  padding: 5px;
+  height:60px;
+  width:100%;
   text-align: center;
   justify-content: center;
+  margin-bottom: 5px;
 }
 .shoe-btn{
  
   background-color:black;
   color:white;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   text-align: center;
-  margin-bottom: 20px
+  margin-bottom:10px;
+  width: 70px;
+  height: 40px;
 }
 .f{
   
-  height: 500px;
+  height: 245px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 10px;
+  border: none;
   
 }
 .g{
   
-  height: 90%;
-  width: 300px;
+  height: 245px;
+  width: 100%;
   border: solid;
 }
 .h{
   
-height: 90%;
-width: 300px;
+height:245px;
+width: 100%;
 border: solid;
 }
 .i{
  
-  height: 90%;
-  width: 300px;
+  height:245px;
+  width:100%;
   border: solid;
 }
 .bag-btn{
   background-color: black;
   color: white;
-  padding: 10px 20px;
-  margin-bottom: 20px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
   border:none;
+  width:70px ;
+  height:40px ;
 }
 .santo{
   background-color: pink;
   height: 300px;
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap:10px;
  justify-content: center;
   align-items: center;
-  padding: 100px 150px;
-  margin:50px 0;
+  padding: 25px 50px;
+  margin:20px 0;
 }
-.santo h1{
+.santo h3{
   text-transform:uppercase;
 }
 .santo p{
-  margin: 10px 0;
+  margin: 5px 0;
   color: gray;
 }
 .santo form{
