@@ -1,236 +1,361 @@
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing: border-box;
- 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container{
-  background-color: white;
-  height:100%;
-  width:100%;
-  padding:20px 20px;
-  margin:0 auto ;
+.main-container{
+    width: 1140px;
+    height: 250px;
+    margin: 0 auto;
 }
-.header{
- background-color: white;
- justify-content: space-between;
- width:100%;
- display:flex;
- vertical-align:bottom;
- padding-bottom:5px;
- 
- 
-  
-  
-  
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
-.menu{
-  background-color: pink;
-  padding:10px;
-  height:300px;
-  width:100%;
-  display: flex;
-  align-items: center;
+.banner-container{
+    display: flex; 
+    background-color: pink;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.left-banner-section{
+    padding: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    gap: 20px;
+    width: 55%;
+}
+.left-banner-section p{
+    color: gray;
 }
 .price{
-  color:deeppink;
+    color: #ff1b74;
+    
 }
-.banner-button{
-  background-color: deeppink;
-  color:white;
-  border: none ;
-  width:60px;
-  height:20px;
+.banner-btn,
+.shoe-btn,
+.backpack-btn{
+    width: 150px;
+     padding: 10px 40px;
+    background-color: hotpink;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-.hits{
-  height:160px;
-  width:200px;
-  display: flex;
-  justify-content: center;
+.right-banner-section{
+    padding: 50px;
+    width: 40%;
+    padding-right: 0;
+    
 }
-.aside{
-  height:100%;
-  width:100%;
-  
- 
-  
-  
+.hero-tv{
+    width: 100%;
 }
-.image-box{
-  height:35px;
-  width:35px;
-  
-  display: flex;
-  justify-content: center;
-  
-  
+.category-heading,
+.shoe-heading,
+.backpack-heading {
+    margin: 30px 0;
+    
+    
 }
-.common{
-  
-  height:50px;
-  width:100%;
-  display: flex;
-  justify-content: space-around;
-  gap:10px;
-  
-  
+.category-section,
+.shoe-section,
+.backpack-section{
+    width: 100%;
+    
 }
-.watch{
-  height:40px;
-  padding:10px;
-  background-color: orange;
-  width:100%;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  
-}
-.bag{
-  height:40px;
-  padding:10px;
-  width:100%;
-  background-color: deeppink;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-.shoes{
-  height:40px;
-  padding:10px;
-  width:100%;
-  background-color: blue;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  
-}
-.a{
-  height:245px;
-  width:100%;
-  background-color: deeppink;
-  display:flex;
-  justify-content:flex-end;
-  gap:10px;
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:10px
 }
 
-.b{
-  
-  height:245px;
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-  gap:10px;
-  border: none;
-  
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 33%;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
+    
 }
-.c{
-  
-  height:245px;
-  width:100%;
-  border: solid;
+.watch{
+    background-color: orange;
+     color: white;
 }
-.d{
-  
-height:245px;
-width:100%;
-border: solid;
+.bag{
+    background-color: deeppink; color: white;
 }
-.e{
- 
-  height:245px;
-  width:100%;
-  border: solid;
+.shoe{
+    background-color: blue; 
+    color: white;
 }
-.image{
-  padding:5px;
-  height:60px;
-  width:100%;
-  text-align: center;
-  justify-content: center;
-  margin-bottom:5px;
+.shoe-card, .backpack-card{
+    flex-direction: column;
+    border: 2px solid gray;
+    gap: 20px;
+    border-radius:10px ;
 }
-.shoe-btn{
- 
-  background-color:black;
-  color:white;
-  padding:5px 5px;
-  border: none;
-  text-align: center;
-  margin-bottom:5px;
-  width:75px;
-  height:25px;
-  justify-content: space-between;
+.shoe-card p ,
+.backpack-card p{
+    text-align: center;
 }
-.f{
-  
-  height:245px;
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-  gap:10px;
-  border: none;
-  
+.shoe-btn, .backpack-btn{
+    background-color: black;
+       padding: 10px 20px;
+    margin-bottom: 20px;
 }
-.g{
-  
-  height:245px;
-  width:100%;
-  border: solid;
+.newsletter-container{
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
 }
-.h{
-  
-height:245px;
-width:100%;
-border: solid;
+.newsletter-container h1{
+    text-transform: uppercase;
 }
-.i{
- 
-  height:245px;
-  width:100%;
-  border: solid;
+.newsletter-container p{
+    margin: 10px 0;
+    color: gray;
 }
-.bag-btn{
-  background-color: black;
-  color: white;
-  padding:5px 5px;
-  margin-bottom:5px;
-  border:none;
-  width:75px ;
-  height:25px ;
-  justify-content: space-between;
+.newsletter-container form{
+    display: flex ;
+    
 }
-.santo{
-  background-color: pink;
-  height:300px;
-  display: flex;
-  flex-direction: column;
-  gap:10px;
- justify-content: center;
-  align-items: center;
-  padding:25px 50px;
-  margin:20px 0;
+#email{ 
+    border :none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
 }
-.santo h3{
-  text-transform:uppercase;
+.btn-sent{
+    width: 70px;
+    border: none;
+    background-color: deeppink;
+    border-right: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}       
+
+
+
+@media screen and (max-width:576px) 
+{
+    .main-container{
+        max-width: 350px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    
+    .left-banner-section{
+        width: 100%;
+    }
+    .right-banner-section{
+        width: 100%;
+        padding: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .newsletter-container{
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    
+    
+    
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.santo p{
-  margin:5px 0;
-  color: gray;
+.main-container{
+    width: 1140px;
+    height: 250px;
+    margin: 0 auto;
 }
-.santo form{
-  display: flex;
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
-#email{
-  padding:10px;
-  border:none;
-  border-radius:5px 0 0 5px;
+.banner-container{
+    display: flex; 
+    background-color: pink;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
-.btn-send{
-  width:70px;
-  border: none;
-  color: white;
-  background-color: deeppink;
+.left-banner-section{
+    padding: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    gap: 20px;
+    width: 55%;
+}
+.left-banner-section p{
+    color: gray;
+}
+.price{
+    color: #ff1b74;
+    
+}
+.banner-btn,
+.shoe-btn,
+.backpack-btn{
+    width: 150px;
+     padding: 10px 40px;
+    background-color: hotpink;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.right-banner-section{
+    padding: 50px;
+    width: 40%;
+    padding-right: 0;
+    
+}
+.hero-tv{
+    width: 100%;
+}
+.category-heading,
+.shoe-heading,
+.backpack-heading {
+    margin: 30px 0;
+    
+    
+}
+.category-section,
+.shoe-section,
+.backpack-section{
+    width: 100%;
+    
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 33%;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
+    
+}
+.watch{
+    background-color: orange;
+     color: white;
+}
+.bag{
+    background-color: deeppink; color: white;
+}
+.shoe{
+    background-color: blue; 
+    color: white;
+}
+.shoe-card, .backpack-card{
+    flex-direction: column;
+    border: 2px solid gray;
+    gap: 20px;
+    border-radius:10px ;
+}
+.shoe-card p ,
+.backpack-card p{
+    text-align: center;
+}
+.shoe-btn, .backpack-btn{
+    background-color: black;
+       padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.newsletter-container{
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.newsletter-container h1{
+    text-transform: uppercase;
+}
+.newsletter-container p{
+    margin: 10px 0;
+    color: gray;
+}
+.newsletter-container form{
+    display: flex ;
+    
+}
+#email{ 
+    border :none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.btn-sent{
+    width: 70px;
+    border: none;
+    background-color: deeppink;
+    border-right: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}       
+
+
+
+@media screen and (max-width:576px) 
+{
+    .main-container{
+        max-width: 350px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    
+    .left-banner-section{
+        width: 100%;
+    }
+    .right-banner-section{
+        width: 100%;
+        padding: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .newsletter-container{
+        padding: 50px 0;
+        flex-direction: column; 
+    }
+    
+    
+    
 }
